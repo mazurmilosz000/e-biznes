@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  app:
+    image: miloszmazuruj/my_gradle_app:latest
+    container_name: my_gradle_app
+    command: gradle run
