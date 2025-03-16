@@ -21,7 +21,7 @@ This is a simple Discord bot built using Kotlin and the Diskord library. The bot
 
 1. **Clone the repository**:
    ```bash
-   git clone https://your-repository-url
+   git clone https://github.com/mazurmilosz000/e-biznes.git
 
 ## How do I use this?
 
