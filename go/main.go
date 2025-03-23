@@ -14,7 +14,7 @@ func main() {
 	database.InitDB()
 
 	e.Use(middleware.CORSWithConfig(middleware.CORSConfig{
-		AllowOrigins: []string{"http://localhost:5173"},
+		AllowOrigins: []string{"http://localhost:5173", "http://localhost:3000"},
 		AllowMethods: []string{"GET", "POST", "PUT", "DELETE"},
 	}))
 
